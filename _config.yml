@@ -5,11 +5,11 @@ email: your-email@yourdomain.com
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+url: "https://doktorjustice.github.io/"
+twitter_username: doktor_justice
+github_username:  doktorjustice
+facebook_username:  Dotkomblog
+email_username: 
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
