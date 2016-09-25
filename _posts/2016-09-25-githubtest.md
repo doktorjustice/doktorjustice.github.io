@@ -1,6 +1,6 @@
 ---
-title: GitHub teszt
 layout: post
+title: GitHub teszt
 ---
 
 # Teszt
