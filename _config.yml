@@ -34,4 +34,4 @@ defaults:
       layout: "post"
       author: "Somi András"
       comments: true
-      header-img: img/test_head.jpg
+      header-img: img/post_head.jpg
