@@ -6,7 +6,7 @@
     <meta name="description" content="{{ site.description }}">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content=" {% if page.description %}{{ page.description}}{% else if page.subtitle %}{{ page.subtitle }} {% else %}{{ site.description }}{% endif %}">
-    <meta property="og:url" content="{{ page.url }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:type" content="{% if page.type == post %}article{% else %}website{% endif %}">
     <meta property="og:image" content="{{ site.url }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}">
     <meta property="article:publisher" content="https://www.facebook.com/dotkomblog">
