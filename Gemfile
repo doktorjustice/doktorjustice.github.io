@@ -5,4 +5,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll"
   gem 'github-pages'
+  gem 'jekyll-gist'
 end
