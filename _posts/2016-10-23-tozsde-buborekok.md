@@ -9,7 +9,7 @@ A blog történetének (pláne az új blog történetének) legrosszabb címadá
 
 ### Miről beszélnek az emberek?
 
-A kísérlet célja a szemnek is tetszetős módon ábrázolni, melyik részvényekről folyik a legélénkebb diskurzus a piacon. Az ábrán minden buborék egy-egy részvény, a buborékok területe pedig azzal arányos, hogy a [Stocktwits](https://stoctwits.com) "trending" bejegyzéseiben hányszor említik a felhasználók. Minél többször fordul elő egy részvény, annál nagyobb és sötétebb a buborék.
+A kísérlet célja a szemnek is tetszetős módon ábrázolni, melyik részvényekről folyik a legélénkebb diskurzus a piacon. Az ábrán minden buborék egy-egy részvény, a buborékok területe pedig azzal arányos, hogy a [Stocktwits](https://stocktwits.com) "trending" bejegyzéseiben hányszor említik a felhasználók. Minél többször fordul elő egy részvény, annál nagyobb és sötétebb a buborék.
 
 (Animált az ábra, kattints a gombra, ha újból meg akarod nézni a csodát.)
 
@@ -242,7 +242,7 @@ A kísérlet célja a szemnek is tetszetős módon ábrázolni, melyik részvén
     </script>
 </div>
 
->A Stocktwits a tőzsdéseknek szóló Twitter. A bejegyzésekben a hashtagekhez hasonlóan `$` jellel kezdődő ún. _cashtagekkel_ lehet jelölni az egyes részvényeket, pl. `$AAPL`-lel az Apple-t, `$MSFT`-vel a Microsoftot, stb. Ezek alapján is kereshetők, rendszerezhetők a posztok. Bár a Twitterre épülve indult a közösség, időközben külön platformmá nőtte ki magát, saját API-val. Ezt használtam én is.
+(A Stocktwits amúgy tőzsdéseknek szóló Twitter. A bejegyzésekben a hashtagekhez hasonlóan `$` jellel kezdődő ún. _cashtagekkel_ lehet jelölni az egyes részvényeket, pl. `$AAPL`-lel az Apple-t, `$MSFT`-vel a Microsoftot, stb. Ezek alapján is kereshetők, rendszerezhetők a posztok. Bár a Twitterre épülve indult a közösség, időközben külön platformmá nőtte ki magát, saját API-val. Ezt használtam én is.)
 
 Ezek egyelőre csak statikus múltbeli adatok, egy péntek éjjel és vasárnap délelőtt közötti időszakról, összesen 1530 bejegyzésből. (Vidd az egérkurzort a buborékra, és megmutatja a papír nevét és az említések számát is.) Pont ez volt az a hétvége amúgy, amikor bejelentették, hogy az AT&T (T) felvásárolja a Time Warnert (TWX), ez világosan átjön az ábráról.
 
