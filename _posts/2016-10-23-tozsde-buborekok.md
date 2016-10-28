@@ -11,13 +11,15 @@ A blog történetének (pláne az új blog történetének) legrosszabb címadá
 
 A kísérlet célja a szemnek is tetszetős módon ábrázolni, melyik részvényekről folyik a legélénkebb diskurzus a piacon. Az ábrán minden buborék egy-egy részvény, a buborékok területe pedig azzal arányos, hogy a [Stocktwits](https://stoctwits.com) "trending" bejegyzéseiben hányszor említik a felhasználók. Minél többször fordul elő egy részvény, annál nagyobb és sötétebb a buborék.
 
+(Animált az ábra, kattints a gombra, ha újból meg akarod nézni a csodát.)
+
 #### Említések száma a Stocktwits-en
 <div>
     <script src="https://d3js.org/d3.v4.js"></script>
-    <svg height="600"></svg>
     <div>
-      <button id="refresh"><small>Újrarajzolás</small></button>
+      <button id="refresh"><small>Rajzold újra</small></button>
     </div>
+    <svg height="600"></svg>
     <script>
         (function(window, document) {
           'use strict';
@@ -250,20 +252,17 @@ Igazi gyakorlati haszna így nem sok van, de...
 
 1. ...legalább született egy bejegyzés a Dotkomra. 
 2. ...ez az első komplettebb D3.js próbálkozásom.
-3. ...sok fejlesztési irány rejlik még benne. 
-4. ...már ez a verzió is egész jól mutat.
-5. ...legalább nagyon jót játszottam vele.
+3. ...már ez a verzió is egész jól mutat.
+4. ...legalább nagyon jót játszottam vele.
 
-### Van hová fejleszteni
-
-Még ezzel a kis aprósággal is sok egyebet lehetne kezdeni. Például:
+Ezeken felül is van még azért potenciál ebben a dologban. Például:
 
 * Lehet dinamikus, animálva mutatva az időbeli változásokat.
 * Lehet valós idejű, mindig az aktuális diskurzusnak megfelelően alakítva a buborékfelhőt.
 * Az egyedi buborékokról előugró extra információ is lehet sokkal bővebb.
 * A legérdekesebb dimenzió az lenne, hogy az egyes részvényeket _melyik más papírokkal együtt_ emlegetik.
 
-Ezekkel már egyébként lehetne akár gyakorlati haszna is. A Stocktwits API sajnos nem túl megengedő, egyszerre legfeljebb 30 üzenetet ad vissza ("lapozható" formában, azaz további kérésekkel több üzenethez lehet jutni), és óránként maximum 200 lekérdezést engedélyez (azaz max. 18 másodpercenként lehet zaklatni, ha egyenletesen akarom csinálni), azt is csak a _trending_ témákra, nem a teljes részvényszekcióra.
+Ezekkel már akár gyakorlati értékről is beszélhetnénk, és nyilván sokkal izgalmasabb is volna a vizualizáció. A Stocktwits API sajnos nem túl megengedő, egyszerre legfeljebb 30 üzenetet ad vissza ("lapozható" formában, azaz további kérésekkel több üzenethez lehet jutni), és óránként maximum 200 lekérdezést engedélyez (azaz max. 18 másodpercenként lehet zaklatni, ha egyenletesen akarom csinálni), azt is csak a _trending_ témákra, nem a teljes részvényszekcióra.
 
 De biztosan lesz még folytatása ennek a miniprojektnek.
 
