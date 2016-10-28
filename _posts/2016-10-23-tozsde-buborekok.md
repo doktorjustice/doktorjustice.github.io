@@ -269,4 +269,4 @@ De biztosan lesz még folytatása ennek a miniprojektnek.
 ### Itt van hozzá a kód is
 Ez a script kaparja ki az említések számát az API által visszaadott adatokból, és rajzolja ki a grafikont belőle.
 
-{% gist somiandras/5fdb594ddbd86db1e9d79e3e3ade4775 %}
+{% gist somiandras/5fdb594ddbd86db1e9d79e3e3ade4775 stocktwits_bubbles.js %}
