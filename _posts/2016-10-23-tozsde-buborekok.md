@@ -11,6 +11,7 @@ A blog történetének (pláne az új blog történetének) legrosszabb címadá
 
 A kísérlet célja a szemnek is tetszetős módon ábrázolni, melyik részvényekről folyik a legélénkebb diskurzus a piacon. Az ábrán minden buborék egy-egy részvény, a buborékok területe pedig azzal arányos, hogy a [Stocktwits](https://stoctwits.com) "trending" bejegyzéseiben hányszor említik a felhasználók. Minél többször fordul elő egy részvény, annál nagyobb és sötétebb a buborék.
 
+#### Említések száma a Stocktwits-en
 <div>
     <script src="https://d3js.org/d3.v4.js"></script>
     <svg height="600"></svg>
