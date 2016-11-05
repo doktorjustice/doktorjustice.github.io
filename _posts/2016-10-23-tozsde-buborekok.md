@@ -27,7 +27,7 @@ A kísérlet célja a szemnek is tetszetős módon ábrázolni, melyik részvén
           let refresh = document.getElementById('refresh');
           
           window.onload = function() {
-            d3.json('https://dotkom.info/stocktwits/testdata', d => {
+            d3.json('/sample_data/test_data.json', d => {
               extractData(d);
               refresh.addEventListener('click', () => extractData(d));
             });
