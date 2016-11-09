@@ -32,7 +32,7 @@ Még szintén az első cikkből egy másik jó gondolat:
 
 A következő annyira bizarr, hogy félek, hogy félreértettem valamit. A Wired már _két nappal a választás előtt_ megkoronázta a statisztika új császárát, aki amúgy elsöprő Clinton győzelmet kiáltott, és nem is túl szerényen.
 
->"This year, Wang called the election at 8:55 PM on October 18. He promised to eat more than just his hat if Clinton loses: “It is totally over. If Trump wins more than 240 electoral votes, I will eat a bug,” Wang tweeted to his 23,000 followers. He expects Clinton to receive at least 298 electoral votes."
+>"This year, Wang called the election at 8:55 PM on October 18. He promised to eat more than just his hat if Clinton loses: “It is totally over. If Trump wins more than 240 electoral votes, I will eat a bug,” Wang tweeted to his 23,000 followers. He expects Clinton to receive at least 298 electoral votes." <br>
 [2016’s Election Data Hero Isn’t Nate Silver. It’s Sam Wang](https://www.wired.com/2016/11/2016s-election-data-hero-isnt-nate-silver-sam-wang/)
 
 ### A politika és a grafikonok
