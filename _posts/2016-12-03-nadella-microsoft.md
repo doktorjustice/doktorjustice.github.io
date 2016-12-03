@@ -1,6 +1,6 @@
 ---
 title: Így durrant be a Microsoft rakétája
-subtitle: Amikor tényleg fordulatot hoz egy vezető
+subtitle: Tényleg új lendületet hozott Nadella
 date: 2016-12-03
 ---
 
