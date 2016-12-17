@@ -31,5 +31,5 @@ Visszaolvasva a 2015-ös bejegyzést, és lehántva róla a sallangokat (van bő
 1. A bitcoin, mint pénzügyi eszköz illanékony hitre épül, ami rendkívül kockázatossá teszi, emiatt pedig réteg jelenség maradhat.
 2. A bitcoin alapját képező rendszer (blockchain) viszont hosszú távon is hasznos és életképes technológia, aminek helye lesz a világban.
 
-Ilyen módon megfogalmazva mindkettőt továbbra is érvényesnek tartom, és talán a piac fejlődése is ezt igazolja vissza. De nem így fogalmaztam meg.
+Ilyen módon megfogalmazva mindkettőt továbbra is érvényesnek tartom, és talán a piac fejlődése is ezt igazolja vissza. De nem így fogalmaztam meg, és szögezzük le azt is, hogy fogalmam sincs, hol lesz a bitcoin árfolyama két év múlva.
 
