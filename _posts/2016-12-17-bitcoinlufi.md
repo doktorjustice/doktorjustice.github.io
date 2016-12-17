@@ -1,6 +1,6 @@
 ---
-title: Ne jósolj olyanról, amihez nem értesz
-subtitle: Csak a sötétben tapogatózol
+title: Ilyen csúnyán nem néztem még be semmit
+subtitle: A bitcoin összeomlását vártam, de triplázott.
 date: 2016-12-17
 header-img: img/night_fisherman.jpg
 ---
@@ -26,7 +26,7 @@ Emlékeztem persze, hogy írtam egy nem túl pozitív hangvételű bejegyzést a
 
 Azt is érdemes leszögezni, hogy ha hasonló meggyőződéssel állítottam volna, hogy a bitcoin ára biztosan meg fog háromszorozódni, az pont ugyanígy helytelen lett volna. Az árfolyam emelkedése ráadásul önmagában nem teszi igazolttá azt sem, hogy a bitcoin a világ jegybanki pénzeit teljesen kiszorító, mindenható digitális pénzzé válna, megcáfolva minden károgót és kritikust.
 
-Visszaolvasva a 2015-ös bejegyzést, és lehántva róla a sallangokat (van bőven), két szempont rajzolódik ki::
+Visszaolvasva a 2015-ös bejegyzést, és lehántva róla a sallangokat (van bőven), két szempont rajzolódik ki:
 
 1. A bitcoin, mint pénzügyi eszköz illanékony hitre épül, ami rendkívül kockázatossá teszi, emiatt pedig réteg jelenség maradhat.
 2. A bitcoin alapját képező rendszer (blockchain) viszont hosszú távon is hasznos és életképes technológia, aminek helye lesz a világban.
