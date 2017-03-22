@@ -1,7 +1,7 @@
 ---
 title: Egy legendás spekuláns varázslatos élete
 subtitle: A Man for All Markets nagyon jó könyv
-date: 2017-03-20
+date: 2017-03-22
 header-img: img/ace.jpg
 ---
 
