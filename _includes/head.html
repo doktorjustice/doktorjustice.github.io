@@ -8,7 +8,7 @@
     <meta property="og:description" content=" {% if page.description %}{{ page.description}}{% else if page.subtitle %}{{ page.subtitle }} {% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:type" content="{% if page.type == post %}article{% else %}website{% endif %}">
-    <meta property="og:image" content="{{ site.url }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}">
+    <meta property="og:image" content="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}">
     <meta property="fb:app_id" content="537542299788697">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
