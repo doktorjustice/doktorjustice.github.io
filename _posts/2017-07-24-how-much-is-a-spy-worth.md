@@ -25,7 +25,7 @@ Last weekend the story got a little twist, [when a spy entered the scene](https:
 
 As I’m in the middle of my data science ‘studies’, I decided to attack with code (maybe trying to think a little more before hitting the keyboard would have saved some time, but hey, thinking is not my style!). 
 
-First, how to decide what is the required minimum number of soldiers against any given enemy strategy which guarantees minimum 28 points? 
+First, how to decide what is the required minimum number of soldiers against any given enemy strategy which guarantees winning the war (earning at least 28 points)? 
 
 Basically it’s a value investment question with some constraints: you want to ‘buy’ enough (but not too many) points with spending the least amount of resources (soldiers) by going for the ‘cheapest’ points on the field. So I tried to create some elaborate methods with calculating the _relative value_ of each castle (a great measurment is the soldiers spent divided by the number of points earned, just like a P/E ratio of a stock), but I just overcomplicated the whole thing.
 
