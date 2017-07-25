@@ -1,6 +1,6 @@
 ---
 title: How much is a spy worth?
-subtitle: I would give half of my army for it, for sure
+subtitle: I would give half of my army for it
 date: 2017-07-24
 header-img: img/spy.jpg
 ---
