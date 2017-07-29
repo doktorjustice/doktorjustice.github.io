@@ -18,4 +18,4 @@ This is the worst setup to fight against, but still beatable __with 56 soldiers_
 
 My solution was 53 soldier based on a sample of 115 thousand of seemingly viable random enemy strategies. But this is a dumb way when the actual solution depends on one single enemy strategy from the billions of possible combinations. Trying to find a needle in a haystack by picking up only the first hundred pieces is not a viable solution, though it might pay-off if it’s a state-funded project with loose quality requirements.
 
-On the other hand in the real world it’s much more common to look for a _typical_ value or range by sampling the population or creating simulations on the combinations of input variables. My code was too simplified for that too, of course, but anyway, I had fun writing it!
+On the other hand in the real world it’s much more common to look for a _typical_ value or range by sampling the population or creating simulations of the combinations of input variables. My code was too simplified for that too, of course, but anyway, I had fun writing it!
