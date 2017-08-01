@@ -1,6 +1,6 @@
 ---
-title: The first time I’m not excited about coding
-subtitle: R is just not my cup of tea, I guess
+title: The first time I’m not 100% excited about coding
+subtitle: R is not my friend, but I keep on trying
 date: 2017-08-01
 header-img: img/R.jpg
 ---
