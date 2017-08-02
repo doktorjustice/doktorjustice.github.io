@@ -1,8 +1,8 @@
 # Site settings
 title: Dotkom
 header-img: img/cover.jpg
-copyright_name: Dotkom / Somi András
-description: "Technológia pénzügyi szemmel"
+copyright_name: Dotkom / András Somi
+description: "Adventures in investments, tech and data"
 baseurl: ""
 url: "http://dotkomblog.com"
 twitter_username: somiandras
@@ -20,7 +20,7 @@ gtm_id: GTM-M3H23V
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed, github-pages, jekyll-gist]
