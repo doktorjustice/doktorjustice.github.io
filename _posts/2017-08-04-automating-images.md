@@ -35,6 +35,8 @@ For most of you it’s not a big deal, and it’s surely not the nicest Python s
 
 I have some other revolutionary ideas with the header images and other stuff on the blog, but for now I just want to enjoy the huge amount of precious time I saved myself with this hack.
 
+So here's the code:
+
 ``` python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
