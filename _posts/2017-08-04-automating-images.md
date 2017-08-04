@@ -1,41 +1,51 @@
 ---
 title: The beauty of automating little tedious things
-subtitle: In which our protagonist reinvents the bycicle and becomes very proud of himself
-header-id:E_8Zk_hfpcE
+subtitle: In which our protagonist reinvents the bycicle, and he is very proud of himself
+photo-author-profile: adigold1
+photo-author: Adi Goldstein
+header-url: https://images.unsplash.com/photo-1494660251519-9845cdb85fc3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&fit=crop&s=4edc0d14a598baf234f063b0d6fa9f68
 date: 2017-08-04
 ---
 
-So, here’s an example why I love monkey with stuff that I tend to sometimes overstate as coding. Yesterday, when I woke up I didn’t know about the existence of _git hooks_ and what they are capabale of, but I felt something big was going to happen. Indeed, by the time I got bed in the evening I managed to automate the whole process of adding properly sized header images to my posts and credit them to the photographers.
+Here’s an example why I love coding. Yesterday when I woke up I didn’t know anything about the existence of _git hooks_ and what they are capabale of. By the time I got to bed I managed to automate the whole process of adding header images to my posts and credit them to the photographers. Whoa!
 
-This blog is a Jekyll static site hosted on GitHub Pages, which provides a fairly straightforward workflow for writing. I just scribble down the new post in Markdown (very efficient), add some details to the top like the title and subtitle (the so called ‘front-matter’), commit the changes to the local git repo, and `git push` to GitHub. All the rest is handled by GitHub, it automatically builds the site from the Jekyll assets and publish it, literally in seconds.
+## Blog like a (lazy) pro
 
-It’s good for me but also good for the readers, as the result is a static site, where everything is pre-rendered, no database queries, elaborate CMS engines and whatnots. Fast and easy.
+This blog is a Jekyll static site hosted on GitHub Pages, which provides a fairly straightforward workflow for writing. I just scribble down the new post in Markdown (most efficient way to write structured text!), add some details like the title and subtitle to the top (the so called ‘front-matter’), commit the changes to the local git repo, and `git push` to GitHub. All the rest is handled by GitHub, automatically building the site from the Jekyll assets and publishing it literally in seconds.
 
-There was only one hiccup in this flow, until yesterday, the header image. I love [Unsplash](https://unsplash.com) which offers wide range of amazing high-res photos for free. But I had to download, resize and save the chosen image, then add the path and author credits to the post, commit the photo and the changes, and push it to GitHub. 
+It’s good for me but also good for you, as the result is a static site, where everything is pre-rendered, no database queries, elaborate CMS engines and whatnots. Clean, fast and easy.
 
-Very inefficient to do all this manually, and not the most elegant way either, as Unsplash, unlike other photo providers, [encourages hotlinking](https://unsplash.com/documentation#hotlinking). 
+There was only one hiccup in this flow (I mean, until yesterday), the header image. I love [Unsplash](https://unsplash.com) which offers wide range of amazing high-res photos for free. But before _'The Day I Found Git Hooks'_ I had to download, resize and save the chosen image, then add the path and author credits to the post, commit the photo and the changes, and push it to GitHub.
+
+Very inefficient to do all this manually, and not the most elegant way either as Unsplash, unlike other photo providers, [encourages hotlinking](https://unsplash.com/documentation#hotlinking). 
 
 > “Unlike most APIs, we prefer for the image URLs returned by the API to be directly used or embedded in your applications (generally referred to as hotlinking). By using our CDN and embedding the photo URLs in your application, we can better track photo views and pass those stats on to the photographer, providing them with context for how popular their photo is and how it’s being used.”
 
-So in theory all I need is the proper url of the photo which I can include into my page’s markup. _’Something needs to be done!’_ - I said to myself in a dramatic voice. But how do I do it in an automated fashion, so each post gets its proper header with me putting the least amount of work into it?
+## Finding a solution that is good enough
 
-First I looked into existing Jekyll plugins or writing one, but then it turned out that GitHub Pages runs the Jekyll build with the `--safe` tag, disabling every custom plugin. Then I found git hooks. (I was actually looking for compiling `.less` files into `.css` during build, and [found my hints here](https://www.benburwell.com/posts/less-file-compilation-for-jekyll-github-pages/), but that’s another story.)
+So in theory all I need is the proper url of the photo which I can include into my page’s markup and load the image. _’Something needs to be done!’_ - I said to myself in a dramatic voice. But how do I do it in an automated fashion with me putting the least amount of work into the photos?
 
-As I learned [from the docs](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) git runs scripts from the `.git/hooks` directory at certain milestones of the proccess. Adding a proper `pre-commit` script let’s me inspect or change the contents of any file that is to be committed. The script can be anything, like shell, Ruby or my weapon of choice, Python. Great.
+First, I looked into Jekyll plugins, but with little searching it turned out GitHub Pages runs the Jekyll build with the `--safe` tag, disabling every custom plugin. Then I found git hooks. (I was actually looking for compiling `.less` files into `.css` during build, and [found my hints here](https://www.benburwell.com/posts/less-file-compilation-for-jekyll-github-pages/), but that’s another story.)
 
-I’ve never automated anything with scripts in a build process before, but it had this _insider_ feeling, so I had to do it. And in fact it was faster than anticipated to write a Python script, that:
+As I learned [from the docs](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) git runs scripts from the `.git/hooks` directory at certain milestones (life-cycle events) of its proccesses. Adding a proper `pre-commit` script let’s me inspect or change the contents of any file that is to be committed before committing it. The script can be in any language, shell, Ruby or my weapon of choice, Python. Great!
+
+## And it miraculously works!
+
+I’ve never automated anything in a build process before, but it had this _insider_ feeling, so I had to do it. And in fact it was faster than anticipated to write a Python script, that:
 
 1. Checks the list of files to be committed, and picks the `.md` files from the `_posts` directory (if there’s any).
 2. Extracts the `header-id` variable from the front-matter for each post.
-3. Retrieves the url of the proper sized photo and the photographer’s name and username from the Unsplash API.
+3. Retrieves the url of the properly sized photo and the photographer’s name and username from the Unsplash API.
 4. Replaces `header-id` with these new variables and overwrites the post.
-5. Adds to the git staging area the modified post(s), before committing anything.
+5. Stages the modified post(s) in git, before committing anything.
 
-For most of you it’s not a big deal, and it’s surely not the nicest Python script ever written in the long history of the seven kingdoms of Westeros, but it works. So now I only have to chose my photo, copy its Unsplash id to the top of my post, and all the rest is automated. The photo is inserted before committing the changes and proper credits are given to the author in the post in an ‘Unsplash-compatible’ way (with a little tinkering with the templates of the page).
+It’s definitely not the nicest Python script ever written in the long history of the seven kingdoms of Westeros, __but it works.__
 
-I have some other revolutionary ideas with the header images and other stuff on the blog, but for now I just want to enjoy the huge amount of precious time I saved myself with this hack.
+So now I only have to chose my photo, copy its Unsplash id to the top of my post, and when I first commit the new post, the photo is inserted and proper credits are given to the author in an ‘Unsplash-compatible’ way (I had to also slightly tweak the page templates for that).
 
-So here's the code:
+I have some other revolutionary ideas with the header images and other stuff on the blog, but for now I just want to enjoy the vast amount of precious time I saved myself with this huge hack.
+
+So here's this ugly little script:
 
 ``` python
 #!/usr/bin/env python3
