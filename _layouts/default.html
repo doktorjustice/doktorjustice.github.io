@@ -4,12 +4,15 @@
 {% include head.html %}
 
 <body>
+    {% if jekyll.environment == 'production' %}
+  
+      {% include gtm.html %}
 
-    {% include gtm.html %}
-    
-    {% include fb.html %}
+      {% include fb.html %}
+      
+      {% include twtr.html %}
 
-    {% include twtr.html %}
+    {% endif %}
 
     {% include nav.html %}
 
