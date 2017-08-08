@@ -49,8 +49,10 @@ I also decided not to stop this adventure by cashing in the short-term gains. At
 
 When the price of ether dropped from its peak in June I temporarily sold part of it, so I had somewhat lower exposure during the 60% drop, but I gradually _’reinvested’_ and also _’diversified’_ between ether, bitcoin and litecoin. There are no scientific reasons for it, but I plan to keep it that way, even though this diversification is just an illusion, as the prices move hand-in-hand with each other _(*)_.
 
+This is how it looks like now:
+
 ![](/img/posts/crypto.png)
 
-But the main benefit of having some cryptocurrency in my pocket is that I’m naturally inclined to keep one eye on the crypto scene in general. Which does not mean I intend to abandon my scepticism anytime soon.
+But the main (only?) benefit of having some cryptocurrency in my pocket is that I’m naturally inclined to keep one eye on the crypto scene in general. Which does not mean I intend to abandon my scepticism anytime soon.
 
 _(*) Speaking of correlations there is a theoretical way cryptocurrencies can be beneficial to an investment portfolio: if the inevitable crash comes on stock markets and the cryptocurrencies turn out to be uncorrelated to other instruments, they can decrease the overall volatility and provide some diversification benefits. But as there is no sufficient data to support this idea it remains an imaginary benefit that I think noone should really pursue._
