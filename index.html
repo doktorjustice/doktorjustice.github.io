@@ -34,3 +34,11 @@ description: "Adventures in data, tech and investing"
     {% endif %}
 </ul>
 {% endif %}
+<hr>
+
+<!-- Unsplash credits -->
+{% if site.photo-author %}
+    <br>
+    <small><i class="fa fa-camera" aria-hidden="true"></i> <em>Header photo by <a href="https://unsplash.com/@{{ site.photo-author-profile }}">{{ site.photo-author }}</a>/ <a href="https://unsplash.com">Unsplash</a></em></small>
+{% endif %}
+

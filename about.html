@@ -2,6 +2,9 @@
 layout: page
 title: "About"
 description: '"A goal without a plan is just a wish"'
+header-url: "https://images.unsplash.com/photo-1489777201862-e0f3b05268f8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&fit=crop&s=dcfd7e47b1cf80190b42a90d02a0d237"
+photo-author-profile: "stevengoldphoto"
+photo-author: "Steve Goldberg"
 ---
 
 <p><b>I'm András Somi, a natural-born analyst, investor, data and technology enthusiast and <em>rational daydreamer</em> based in Budapest, Hungary. This blog is the journal of my adventures in code, data science and investments.</b></p>
@@ -15,3 +18,10 @@ description: '"A goal without a plan is just a wish"'
 <img src="/img/Somi_Andras_6616L.jpg" alt="">
 
 </p><small><em>That's how I look in a corporate environment.</em></small></p>
+
+<hr>
+<!-- Unsplash credits -->
+{% if page.photo-author %}
+    <br>
+    <small><i class="fa fa-camera" aria-hidden="true"></i> <em>Header photo by <a href="https://unsplash.com/@{{ page.photo-author-profile }}">{{ page.photo-author }}</a>/ <a href="https://unsplash.com">Unsplash</a></em></small>
+{% endif %}
