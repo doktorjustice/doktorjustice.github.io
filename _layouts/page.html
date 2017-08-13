@@ -22,6 +22,13 @@ layout: default
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			{{ content }}
+
+            <!-- Unsplash credits -->
+            {% if page.photo-author %}
+                <br>
+                <hr>
+                <small><i class="fa fa-camera" aria-hidden="true"></i> <em>Header photo by <a href="https://unsplash.com/@{{ page.photo-author-profile }}">{{ page.photo-author }}</a>/ <a href="https://unsplash.com">Unsplash</a></em></small>
+            {% endif %}
 		</div>
 	</div>
 </div>

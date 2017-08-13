@@ -1,8 +1,5 @@
 # Site settings
 title: Dotkom
-header-url: https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&fit=crop&s=a2f2e5fe166600230076297782dfbf8f
-photo-author-profile: amadorloureiroblanco
-photo-author: Amador Loureiro
 copyright_name: Dotkom / András Somi
 description: "Adventures in data, tech and investing"
 baseurl: ""
@@ -36,4 +33,6 @@ defaults:
       layout: "post"
       author: "Somi András"
       comments: true
-      header-img: img/post_head.jpg
+      header-url: https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&fit=crop&s=a2f2e5fe166600230076297782dfbf8f
+      photo-author-profile: amadorloureiroblanco
+      photo-author: Amador Loureiro
