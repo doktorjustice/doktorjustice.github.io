@@ -22,7 +22,12 @@ permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed, github-pages, jekyll-gist]
+plugins:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-feed
+  - github-pages 
+  - jekyll-gist
 
 defaults:
   -
