@@ -2,6 +2,8 @@
 title: Evaluating the robots
 subtitle: If there’s anything to evaluate
 date: 2017-08-02
+redirect_from: /2017/08/02/assessing-the-robots/
+category: fintech
 ---
 
 Found this table on [Big Picture](http://ritholtz.com/2017/08/rating-robo-advisors) about short-term performance of the biggest robo-advisors. It’s worth noting few things. (I don’t have a subscription to Barron’s, so I haven’t read the underlying article itself.)

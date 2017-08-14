@@ -5,6 +5,8 @@ photo-author-profile: adigold1
 photo-author: Adi Goldstein
 header-url: https://images.unsplash.com/photo-1494660251519-9845cdb85fc3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&fit=crop&s=4edc0d14a598baf234f063b0d6fa9f68
 date: 2017-08-04
+category: coding
+redirect_from: /2017/08/04/automating-images/
 ---
 
 Here’s an example why I love coding. Yesterday when I woke up I didn’t know anything about the existence of _git hooks_ and what they are capabale of. By the time I got to bed I managed to automate the whole process of adding header images to my posts and credit them to the photographers. Whoa!

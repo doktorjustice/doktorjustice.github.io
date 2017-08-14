@@ -2,6 +2,8 @@
 title: How I overvalued the spy
 subtitle: Rough methods give rough solutions
 date: 2017-07-29
+redirect_from: /2017/07/29/riddle-solution/
+category: coding
 ---
 
 The [solution for last week’s riddle](https://fivethirtyeight.com/features/pick-a-number-any-number/) came out yesterday, and it turns out not only was [my method](http://dotkomblog.com/2017/07/24/how-much-is-a-spy-worth/) rough at the edges but it completely missed the point. Now I know why.

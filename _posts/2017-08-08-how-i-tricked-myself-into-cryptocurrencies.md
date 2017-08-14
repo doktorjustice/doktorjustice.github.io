@@ -5,6 +5,8 @@ photo-author-profile: gooner
 photo-author: Vitaly
 header-url: https://images.unsplash.com/photo-1475650522725-015d35677789?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&fit=crop&s=2181b2d1c7ce20f7196a193be96b0403
 date: 2017-08-08
+category: investing
+redirect_from: /2017/08/08/how-i-tricked-myself-into-cryptocurrencies/
 ---
 
 You know that feeling when you find the banknote that you left in the pocket of your winter coat last spring? I know, too. That’s how cryptocurrencies became part of my portfolio.

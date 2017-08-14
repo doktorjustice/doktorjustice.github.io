@@ -3,6 +3,8 @@ title: How much is a spy worth?
 subtitle: I would give half of my army for it
 date: 2017-07-24
 header-img: img/spy.jpg
+category: coding
+redirect_from: /2017/07/24/how-much-is-a-spy-worth/
 ---
 
 I just discovered a few weeks ago [the weekly Riddler column](https://fivethirtyeight.com/tag/the-riddler/) on FiveThirtyEight, which is about data and math focused problems embedded into entertaining riddles. More precisely I got hooked on one specific problem, the War of Riddler Nation, which popped up again last weekend with an interesting plot twist. I decided to solve it. I’m not sure I managed to but it was fun, even though I missed the deadline for submission.

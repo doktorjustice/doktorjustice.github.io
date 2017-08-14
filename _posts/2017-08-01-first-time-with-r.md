@@ -2,7 +2,11 @@
 title: The first time I’m not 100% excited about coding
 subtitle: R is not my friend, but I keep on trying
 date: 2017-08-01
-header-img: img/R.jpg
+photo-author-profile: steinart
+photo-author: Steinar Engeland
+header-url: https://images.unsplash.com/photo-1490041030694-4835d3f07bd9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&fit=crop&s=975f326d573996b68334678c95f4080e
+redirect_from: /2017/08/01/first-time-with-r/
+category: coding
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">R seems like a complete mess after Python. (The comparison is not fair, but still...). Now I know why: <a href="https://t.co/DHNVNoxImy">https://t.co/DHNVNoxImy</a></p>&mdash; Somi András (@somiandras) <a href="https://twitter.com/somiandras/status/892091743851696129">July 31, 2017</a></blockquote>
