@@ -24,7 +24,7 @@ _Sidenote: the new dataset contains roughly half as many observations as the ini
 
 Here are the most important conclusions, based on the model (and [here’s the Jupyter Notebook with the code](/sample_data/Price_regression.html)):
 
-### 1. The price falls with about 13 percent for every year of the age of the car
+### 1. The price falls 13 percent for every year of the age of the car
 
 On average the value of your Ford Focus will be halved in just 5 years, no matter if you bought a brand new one or a rusty, 15 years old wreckage. (Obviously you’ll lose much more in absolute terms with the former.)
 
