@@ -46,7 +46,7 @@ And the same on log scale. The predictions fall on a visibly narrower path, but 
 
 ## Limitations
 
-Although I threw out categorical values from the model, I used some of them as filters for data. That also means that the model is only valid (if it’s valid at all) for cars, that:
+Although I threw out categorical values from the model, I used some of them as filters for data. That also means that the model is only valid (if it’s valid at all) for used Ford Focuses, that:
 
 * are in undamaged condition (at least according to the seller).
 * ran at least 1000km, and were manufactured before 2017 (to avoid new cars and data errors).
