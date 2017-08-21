@@ -24,15 +24,15 @@ _Sidenote: the new dataset contains roughly half as many observations as the ini
 
 Here are the most important conclusions, based on the model (and [here’s the Jupyter Notebook with the code](/sample_data/Price_regression.html)):
 
-### 1. The price falls 13 percent for every year of the age of the car
+### The price falls 13 percent for every year of the age of the car
 
 On average the value of your Ford Focus will be halved in just 5 years, no matter if you bought a brand new one or a rusty, 15 years old wreckage. (Obviously you’ll lose much more in absolute terms with the former.)
 
-### 2. Every 20% increase in yearly usage decreases the price by 4.4%
+### Every 20% increase in yearly usage decreases the price by 4.4%
 
 If there’s two cars with the same age and similar properties, like engine power, the one with the lower average annual mileage will be more expensive. Maybe even substantially, given the huge differences between mileage values. (No surprise that forging mileage is a profitable scam.)
 
-### 3. You pay 3.6% more fore every 10 horsepower on average
+### You pay 3.6% more fore every 10 horsepower on average
 
 If you think that 90 horsepower is weak, and you need 116, that’s okay. It will cost you almost 10% more, and you’ll have to cough up 14% more for upgrading to 130 HP.
 
