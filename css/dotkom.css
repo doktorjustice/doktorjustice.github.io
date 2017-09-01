@@ -1,0 +1,24 @@
+.follow-box {
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #0085A1;
+  background: #fafafa;
+}
+
+.follow-box a {
+  color: #0085A1;
+  text-decoration: underline;
+}
+
+.follow-box a:hover {
+  text-decoration: none;
+}
+
+.follow-box #mc_embed_signup .button {
+  background-color: #FD9708;
+}
+
+.follow-box #mc_embed_signup .button:hover {
+  background-color: #FEB10D;
+}
