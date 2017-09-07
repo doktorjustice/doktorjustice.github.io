@@ -22,7 +22,7 @@ Here is the chart about their findings [from the article](http://www.portfolio.h
 
 I thought that this issue might deserve some visually more appealing format than this dull bar chart. Don't get me wrong, I'm guilty enough in producing thousands of boring charts throughout my career, and in many cases an efficient, simple approach might be enough. 
 
-But I had some time to spend on this, and here's what I managed to put together using the same numbers:
+But I had some time to spend on this, and here's what I managed to put together using the same numbers (works better on larger screens):
 
 <div>
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:500,600" rel="stylesheet">
@@ -115,12 +115,20 @@ But I had some time to spend on this, and here's what I managed to put together 
         fill: #666;
       }
     </style>
-    <svg width="700" height="600" id="map"></svg>
+    <svg width="700" height="600" id="map" viewbox="0 0 700 600"></svg>
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://unpkg.com/d3-sankey@0"></script>
     <script src="https://unpkg.com/topojson-client@3"></script>
     <script>
       ;(function(window, document) {
+        window.onresize = function(e) {
+          let targetWidth = document.getElementById('map').parentElement.getBoundingClientRect().width;
+
+          d3.select('#map')
+          .attr('width', targetWidth)
+          .attr('height', targetWidth * (600 / 700));
+      };
+
       const EU_COUNTRY_CODES = ['040', '056', '100', '191', '196', '203', '208', 
       '233', '246', '250', '276', '300', '348', '372', '380', '428', '440', '442', 
       '470', '528', '616', '620', '642', '703', '705', '724', '752', '826'];
