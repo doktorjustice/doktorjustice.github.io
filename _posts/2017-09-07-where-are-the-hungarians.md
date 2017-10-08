@@ -5,7 +5,8 @@ header-url: https://images.unsplash.com/photo-1488782552271-d48484d86326?ixlib=r
 photo-author: Bethany Stephens
 photo-author-profile: bethanyiam
 date: 2017-09-07
-category: data-viz
+category: data
+redirect_from: /data-viz/2017/09/07/where-are-the-hungarians/
 ---
 
 It's been a while since I played with some data visualisation in D3.js, but when I saw the chart below I decided to get back to it. Even though (or especially because) the topic is not a funny one.
