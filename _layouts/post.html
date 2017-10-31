@@ -27,11 +27,32 @@ layout: default
 
 				{{ content }}
 
+                <!-- Social shares -->
+                <div class="social-share-buttons">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/intent/tweet?text={{ page.title }}%20%7C%20Dotkom&url={{ site.url }}{{ page.url }}" class="tweet-button social-button" target='_blank' data-network="Twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i> Tweet
+                            </a>
+                        </li>
+                        <li>
+                            <a href class="fb-button social-button" data-network="Facebook" onclick="FB.ui({
+                                    method: 'share', 
+                                    href: '{{ site.url }}{{ page.url }}'
+                                }, function(response){});return false;">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i> Share
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="clear: both;"></div>
+
                 <!-- Unsplash credits -->
-                {% if page.photo-author %}
-                    <br>
+                <div>
+                    {% if page.photo-author %}
                     <small><i class="fa fa-camera" aria-hidden="true"></i> <em>Header photo by <a href="https://unsplash.com/@{{ page.photo-author-profile }}">{{ page.photo-author }}</a>/ <a href="https://unsplash.com">Unsplash</a></em></small>
-                {% endif %}
+                    {% endif %}
+                </div>
                 <hr>
                 
                 <!-- Pager -->
@@ -53,21 +74,7 @@ layout: default
     </div>
 </article>
 
-
-<!-- Social sharing buttons -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <br>
-            <a class="twitter-share-button"
-              href="https://twitter.com/intent/tweet?text={{ page.title }}%20%7C%20Dotkom?url={{ site.url }}{{ page.url }}"
-              data-size="large">
-            Tweet</a>
-            <div style="vertical-align:top; margin-top: 0px !important;" class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}%2F&amp;src=sdkpreparse">Share</a></div>
-        </div>
-    </div>
-</div>
-
+<!-- Email subscription -->
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

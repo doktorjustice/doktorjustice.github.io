@@ -22,3 +22,50 @@
 .follow-box #mc_embed_signup .button:hover {
   background-color: #FEB10D;
 }
+
+.social-share-buttons {
+  margin: 20px 0px;
+  display: block;
+}
+
+.social-share-buttons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-share-buttons li {
+  display: inline;
+  float: left;
+}
+
+.social-share-buttons a {
+  display: block;
+  margin: 20px 15px 20px 0px;
+  padding: 12px;
+  background: blue;
+  color: #ffffff;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.social-share-buttons a:hover {
+  text-decoration: none;
+}
+
+.social-share-buttons .fb-button {
+  background: #3B5998;
+}
+
+.social-share-buttons .fb-button:hover {
+  background: #627aac;
+}
+
+.social-share-buttons .tweet-button {
+  background: #00aced;
+}
+
+.social-share-buttons .tweet-button:hover {
+  background: #00B8FE;
+}
