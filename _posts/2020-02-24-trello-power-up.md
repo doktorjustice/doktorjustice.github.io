@@ -10,7 +10,7 @@ photo-author-profile: nhoizey
 
 _It's been a while since I wrote anything here. Two years. I guess it's not a coincidence that my son is turning two in a few weeks..._
 
-In 2020 I completely surprised myself by actually finishing one of my numerous pet projects: I wrote [a Trello Power-Up](https://trello.com/power-ups/5e14aa34ce4580518945bf9b/text-to-cards) called Text to Cards. This is my first publicly available "software product" ever. And the greatest thing: I actually solved a problem for myself. Exciting times.
+In 2020 I completely surprised myself by actually finishing one of my numerous pet projects: I wrote [a Trello Power-Up](https://trello.com/power-ups/5e14aa34ce4580518945bf9b/text-to-cards) called Text to Cards. This is my first publicly available "software product" ever. And the greatest thing: I solved a problem for myself. Exciting times.
 
 (_"What's a Power-Up?" - you might ask. Simply put these are sort of "plugins" on Trello, that enhance the platform by adding some new functionality or introducing integrations with other services. Read more [here](https://help.trello.com/article/1094-what-are-power-ups)._
 
@@ -24,7 +24,7 @@ It's not the most revolutionary software ever written in the history of mankind,
 
 The idea came back in the days when I was managing my team at KBC - I even started to code up a prototype 4 years ago -, where during our regular weekly discussions we spent disproportionately long time with trying to enter the right thing to the right part of the right cards. This can completely derail an otherwise productive discussion.
 
-Nowadays I tend to spend quite some time on calls with people I work with, and I usually just type up a few notes in my text editor to stay in the flow. You guessed it: most of the time these notes later end up on my Trello boards as cards.
+Nowadays I tend to spend quite some time on calls with people I work with, and I usually just type up a few notes in my text editor to stay in the flow. You guessed it: most of the time these notes end up on my Trello boards as cards.
 
 ## How does it work?
 
