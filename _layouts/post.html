@@ -37,7 +37,7 @@ layout: default
                         </li>
                         <li>
                             <a href class="fb-button social-button" data-network="Facebook" onclick="FB.ui({
-                                    method: 'share', 
+                                    method: 'share',
                                     href: '{{ site.url }}{{ page.url }}'
                                 }, function(response){});return false;">
                                 <i class="fa fa-facebook-official" aria-hidden="true"></i> Share
@@ -54,7 +54,7 @@ layout: default
                     {% endif %}
                 </div>
                 <hr>
-                
+
                 <!-- Pager -->
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -74,23 +74,14 @@ layout: default
     </div>
 </article>
 
-<!-- Email subscription -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            {% include follow.html %}
-        </div>
-    </div>
-</div>
-
 {% if page.comments and jekyll.environment == 'production' %}
     {% include disqus.html %}
 {% else %}
-    <div class="container">    
+    <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <h4>Disqus placeholder</h4>
-                <div>You are in localhost preview, Disqus only loads in production.</div>            
+                <div>You are in localhost preview, Disqus only loads in production.</div>
             </div>
         </div>
     </div>
